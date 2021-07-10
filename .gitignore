@@ -1,0 +1,10 @@
+# General
+.DS_Store
+*.pyc
+
+# IDE
+.idea
+.vscode
+
+# mypy
+.mypy_cache
