@@ -70,8 +70,7 @@ def retrieve_user(
 
 
 @router.delete("", response_model=None)
-def delete_user(
-    id: uuid.UUID,
+def delete_my_user(
     server: Server = Depends(),
 ) -> Any:
     if server.user is None:
