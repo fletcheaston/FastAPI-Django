@@ -29,7 +29,10 @@ def create_item(
             owner=server.user,
         )
     except IntegrityError:
-        pass
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="User with this item already exists.",
+        )
 
 
 @router.get("", response_model=ItemList)
