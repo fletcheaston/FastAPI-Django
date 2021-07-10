@@ -2,6 +2,10 @@
 
 Generate a FastAPI backend with Django-ORM and PostgreSQL
 
+### Interactive API documentation
+
+[![API docs](images/docs.png)](https://github.com/fletcheaston/fastapi-django-postgresql)
+
 ## Requirements
 - Python >= 3.6 with pip installed
 
