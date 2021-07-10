@@ -55,3 +55,8 @@ class UserFilter(BaseFilter):
 
 class UserList(BaseList):
     results: List[UserSaved]
+
+
+class UserLogin(BaseModel):
+    email: EmailStr
+    password: str

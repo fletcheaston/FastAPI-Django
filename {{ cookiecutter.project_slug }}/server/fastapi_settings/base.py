@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     DEBUG: bool = False
     CORS_ORIGINS: List[str]
 
-    COOKIE_NAME: str = "Cookies please"
+    COOKIE_NAME: str = "cookies-please"
 
     # Database settings
     DATABASE_USER: str
