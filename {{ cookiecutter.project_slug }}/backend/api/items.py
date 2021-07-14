@@ -73,7 +73,7 @@ def retrieve_item(
 
 
 @router.delete("/{id}", response_model=None)
-def retrieve_item(
+def delete_item(
     id: uuid.UUID,
     server: Server = Depends(),
 ) -> Any:
